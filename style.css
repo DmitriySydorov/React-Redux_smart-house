@@ -1,0 +1,30 @@
+#root{
+    border: 1px solid #000000;
+    margin: 5px;
+    padding: 5px;
+    background-color: #B1CEFF;
+    border-radius: 7px;
+}
+
+.Tv, .Device ,.WasherMachine ,.ShowerCabine{
+    float: left;
+    border: 1px solid #000000;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #5AA8FF;
+}
+.Tv div, .Device div,.WasherMachine div,.ShowerCabine div{
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: #B1CEFF;
+}
+.Tv div div, .Device div div ,.WasherMachine div div ,.ShowerCabine div div{
+    border: 1px solid #5AA8FF;
+    border-radius: 3px;
+    padding: 3px;
+}
+button{
+    margin: 5px;
+}
